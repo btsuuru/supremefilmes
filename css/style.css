@@ -4,6 +4,10 @@ nav {
   z-index: 999;
 }
 
+/* GAMBIARRA NO CSS PRA FUNCIONAR O TABS DENTRO DO MODAL :S */
+.tabs .indicator { display: none; }
+.tabs .tab a.active { border-bottom: 2px solid #f6b2b5; }
+
 .page-footer {
   background-color: #DD2020;
   /*background-color: #65BDB4;*/

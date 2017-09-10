@@ -53,13 +53,14 @@ require_once('./pages/login.php');
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
             <div class="nav-wrapper">
-              <form>
-                <div class="input-field">
-                  <input id="search" type="search" required>
-                  <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                  <i class="material-icons">close</i>
-                </div>
-              </form>
+              <div class="center ">
+                  <div id="topbarsearch">
+                    <div class="input-field white-text">
+                      <i class="white-text material-icons prefix">search</i>
+                      <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete white-text" >
+                    </div>
+                  </div>
+              </div>
             </div>
           </li>
 
@@ -102,19 +103,19 @@ require_once('./pages/login.php');
       // Se chamar a index com um paramentro "p" entra aqui
       if(file_exists("./pages/".$_GET['p'].".php")){
         require_once("./pages/".$_GET['p'].".php");
-      }else {
+      } else {
         // 404 ERROR PAGE NOT FOUND
         echo "<div class='container'>
-                <div class='row'>
-                  <div class='col s12 m4 l4 center'>
-                    <h2 class='pressStart'>404<small class> PAGE NOT FOUND</small></h2>
-                    <a class='btn waves-light red pulse' href='./index.php'>Voltar ao início</a>
-                  </div>
-                  <div class='col s12 m8 l8'>
-                    <img src='./imgs/404.gif' style='width: 100%'/>
-                  </div>
-                </div>
-              </div>";
+        <div class='row'>
+        <div class='col s12 m4 l4 center'>
+        <h2 class='pressStart'>404<small class> PAGE NOT FOUND</small></h2>
+        <a class='btn waves-light red pulse' href='./index.php'>Voltar ao início</a>
+        </div>
+        <div class='col s12 m8 l8'>
+        <img src='./imgs/404.gif' style='width: 100%'/>
+        </div>
+        </div>
+        </div>";
       }
     } else if(isset($_GET['categoria'])){
       // Se não passar o parametro "p" e
