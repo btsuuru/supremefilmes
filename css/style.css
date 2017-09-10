@@ -1,0 +1,17 @@
+nav {
+  /*background-color: #65BDB4;*/
+  background-color: #DD2020;
+  z-index: 999;
+}
+
+.page-footer {
+  background-color: #DD2020;
+  /*background-color: #65BDB4;*/
+  /*background-color: #6D817D;*/
+}
+
+@media (min-width:968px){
+  .lista-filmes{
+    height: 600px;
+  }
+}
