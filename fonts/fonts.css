@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Courgette|Merienda|Montserrat+Subrayada|Nosifer|Sedgwick+Ave|Sedgwick+Ave+Display|Ubuntu|UnifrakturCook:700|VT323');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.anton{font-family: 'Anton', sans-serif;}
+
+.Courgette{  font-family: 'Courgette', cursive;}
+
+.Sedgwick{font-family: 'Sedgwick Ave', cursive;}
+
+.Sedgwick-display{font-family: 'Sedgwick Ave Display', cursive;}
+
+.Ubuntu{font-family: 'Ubuntu', sans-serif;}
+
+.VT323{font-family: 'VT323', monospace;}
+
+.pressStart{font-family: 'Press Start 2P', cursive;}
+
+.Merienda{font-family: 'Merienda', cursive;}
+
+.Montserrat{font-family: 'Montserrat Subrayada', sans-serif;}
+
+.UnifrakturCook{font-family: 'UnifrakturCook', cursive;}
+
+.Nosifer{font-family: 'Nosifer', cursive;}
+
+
+/*
+<p class='anton'>Anton</p>
+<p class='Courgette'>Courgette</p>
+<p class='Sedgwick'>Sedgwick</p>
+<p class='Sedgwick-display'>Sedgwick-display</p>
+<p class='Ubuntu'>Ubuntu</p>
+<p class='VT323'>VT323</p>
+<p class='pressStart'>pressStart</p>
+<p class='Merienda'>Merienda</p>
+<p class='Montserrat'>Montserrat</p>
+<p class='UnifrakturCook'>UnifrakturCook</p>
+<p class='Nosifer'>Nosifer</p>
+*/

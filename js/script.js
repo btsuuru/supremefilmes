@@ -2,7 +2,6 @@ $( document ).ready(function(){
   $(".button-collapse").sideNav();
   $('select').material_select();
   $('#menu').pushpin({top: $('#menu').offset().top});
-  $('#menu').css("background-color: white");
   $('.modal').modal();
   $('ul.tabs').tabs('select_tab', 'tab_id');
 });
@@ -23,3 +22,15 @@ $("#confirma_senha").on("keyup", function (e) {
         $("#confirma_senha").removeClass("invalid").addClass("valid");
     }
 });
+
+function mostraSecao(){
+  // document.getElementById('carrega').style.display="none";
+  $('#carrega').css('display', 'none');
+  // document.getElementById('secao').style.display="initial";
+  $('#secao').css('display', 'initial');
+}
+
+function mostrarMSG(){
+  Materialize.toast(msg, 8000);
+  alert(msg);
+}
